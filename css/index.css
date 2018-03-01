@@ -1,13 +1,7 @@
-h1 {
-  font-family: 'Pacifico', cursive;
-  font-size: 15;
-}
-
 ul {
       padding: 20px;
       background: rgba(0,0,0,0);
       font-size: 15;
-      font-family: 'Open Sans Condensed', sans-serif;
     }
 
 li {
@@ -16,7 +10,7 @@ li {
     }
 
 body {
-  background-color: black;
+  background-color: white;
 }
 
 div#feature {
