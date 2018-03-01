@@ -1,3 +1,25 @@
+@-webkit-keyframes background {
+  from{background-color: black;}
+  to {background-color: red;}
+}
+
+@keyframes background {
+  from{background-color: black;}
+  to {background-color: red;}
+}
+
+body {
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-animation-name: background; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  animation-name: background;
+  animation-duration: 10s;
+}
+
 h1 {
   font-family: 'Pacifico', cursive;
   font-size: 15;
