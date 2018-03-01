@@ -1,0 +1,16 @@
+div#menu {font-family: 'Mukta Malar', sans-serif;}
+
+ul {
+      padding: 20px;
+      background: rgba(0,0,0,0);
+      font-size: 15;
+    }
+
+li {
+      display: inline;
+      padding: 5px 10px 0px 10px;
+    }
+
+body {
+  background-color: white;
+}
