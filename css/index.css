@@ -1,7 +1,7 @@
 ul {
-      padding: 20px;
+      padding: 10px;
       background: rgba(0,0,0,0);
-      font-size: 15;
+      font-size: 10;
       font-family: 'Mukta Malar', sans-serif;
     }
 
@@ -10,36 +10,50 @@ li {
       padding: 5px 10px 0px 10px;
     }
 
-body {
-  background-color: white;
+a {
+  color: black;
+  text-decoration: none;
 }
 
-div#feature {
-  -webkit-animation-name: feature; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
-  animation-name: feature;
+a:hover {
+  color: white;
+}
+
+body {
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+}
+
+p {font-size: 90px;
+  color: white;
+}
+
+div#Monika_Pun {
+  -webkit-animation-name: Monika_Pun; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3.5s; /* Safari 4.0 - 8.0 */
+  animation-name: Monika_Pun;
   animation-duration: 5s;
 }
 
-@keyframes feature {
+@keyframes Monika_Pun {
   from{opacity: 0;}
   to {opacity: 1;}
 }
 
 /* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes feature {
+@-webkit-keyframes Monika_Pun {
   from{opacity: 0;}
   to {opacity: 1;}
 }
 
 /* Firefox < 16 */
-@-moz-keyframes feature {
+@-moz-keyframes Monika_Pun {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
 /* Internet Explorer */
-@-ms-keyframes feature {
+@-ms-keyframes Monika_Pun {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
