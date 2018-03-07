@@ -20,19 +20,19 @@ a:hover {
 }
 
 body {
-  background-image: url(../images/background.jpg);
+  background: url('../images/background.jpg') no-repeat center fixed;
   background-size: cover;
 }
 
-p {font-size: 90px;
-  color: white;
-}
 
 div#Monika_Pun {
+  font-size: 90px;
+  color: white;
+
   -webkit-animation-name: Monika_Pun; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 3.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
   animation-name: Monika_Pun;
-  animation-duration: 5s;
+  animation-duration: 3s;
 }
 
 @keyframes Monika_Pun {

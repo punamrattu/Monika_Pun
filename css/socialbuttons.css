@@ -1,6 +1,7 @@
 .social {
   position: fixed;
-  top: 20px;
+  bottom: 0;
+  left: 0;
 }
 .social ul {
   list-style: none;
