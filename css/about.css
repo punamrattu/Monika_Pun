@@ -2,6 +2,14 @@ body {
   background-color: white;
 }
 
+.col-md-4 img {
+  padding: 10px;
+}
+
+.about {
+  padding: 30px;
+}
+
 p#title {
   font-family: 'Dr Sugiyama', cursive;
   font-size: 70px;
@@ -10,8 +18,4 @@ p#title {
 p {
   font-family: 'Vollkorn', serif;
   font-size: 16px;
-}
-
-.col-sm-6 img {
-  padding: 10px;
 }
