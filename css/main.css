@@ -4,7 +4,7 @@
     margin-bottom: 0;
     background-color: rgba(0,0,0,0.8);
     border: 0;
-    font-size: 11px !important;
+    font-size: 13px !important;
     letter-spacing: 4px;
 }
 
@@ -16,6 +16,7 @@
 
 .navbar-brand {
   font-family: 'Dr Sugiyama', cursive;
+  font-size: 25px;
   color: rbg (0,0,0);
 }
 
@@ -35,14 +36,28 @@
     border-color: transparent;
 }
 
-p {
-  font-family:'Vollkorn', serif;
+/*CONTENT*/
+.title {
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 70px;
+  color: rgb(153, 18, 29)
+}
+
+.subtitle {
+  font-family: 'Vollkorn', serif;
+  font-size: 20px;
+}
+
+.bodytext {
+  font-family: 'Vollkorn', serif;
+  font-size: 16px;
 }
 
 /*FOOTER*/
 footer {
   background: rgb(221, 221, 221);
   padding: 20px;
+  color: black;
 }
 
 /*social icons*/
@@ -65,8 +80,10 @@ a:link {
     background: rgba(0,0,0,0);
     border: 1px solid white;
     border-radius: 50%;
+    color: black;
 }
 
 p#copyright {
+  font-family:'Vollkorn', serif;
   font-size: 14px;
 }
