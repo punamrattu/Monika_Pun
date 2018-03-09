@@ -1,0 +1,72 @@
+/*NAVBAR*/
+/* Add a dark background color with a little bit see-through */
+.navbar {
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,0.8);
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+}
+
+/* Add a black color to all navbar links */
+.navbar li a, .navbar {
+    color: rgb (0,0,0); !important;
+    font-family:'Vollkorn', serif;
+}
+
+.navbar-brand {
+  font-family: 'Dr Sugiyama', cursive;
+  color: rbg (0,0,0);
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: rbg (0,0,0) !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: rbg (0,0,0) !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+p {
+  font-family:'Vollkorn', serif;
+}
+
+/*FOOTER*/
+footer {
+  background: rgb(221, 221, 221);
+  padding: 20px;
+}
+
+/*social icons*/
+a:link {
+    text-decoration: none;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: white;
+    color: black;
+}
+
+/* hover effect */
+.fa:hover {
+    background: rgba(0,0,0,0);
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+p#copyright {
+  font-size: 14px;
+}
