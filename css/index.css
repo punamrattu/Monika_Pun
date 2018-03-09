@@ -22,12 +22,24 @@ body {
   background-size: cover;
 }
 
-div#Monika_Pun {
+.container-fluid {
+  background: rgba(1,1,1,0.1);
+  color: white;
+}
+
+.title {
   font-family: 'Dr Sugiyama', cursive;
   font-size: 120px;
-  color: white;
-  padding-top: 200px;
+  padding-top: 100px;
+}
 
+.subtitle {
+  font-family: 'Vollkorn', serif;
+  font-size: 30px;
+  padding-bottom: 100px;
+}
+
+div#Monika_Pun {
   -webkit-animation-name: Monika_Pun; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
   animation-name: Monika_Pun;

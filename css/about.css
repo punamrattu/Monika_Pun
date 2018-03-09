@@ -1,0 +1,17 @@
+body {
+  background-color: white;
+}
+
+p#title {
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 70px;
+}
+
+p {
+  font-family: 'Vollkorn', serif;
+  font-size: 16px;
+}
+
+.col-sm-6 img {
+  padding: 10px;
+}
