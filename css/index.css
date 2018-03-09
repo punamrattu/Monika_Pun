@@ -1,22 +1,12 @@
 body {
   background: url('../images/background.jpg') no-repeat center fixed;
   background-size: cover;
-  color: white;
-}
-
-.title {
-  font-family: 'Dr Sugiyama', cursive;
-  font-size: 120px;
-  padding-top: 200px;
-}
-
-.subtitle {
-  font-family: 'Vollkorn', serif;
-  font-size: 30px;
-  padding-bottom: 200px;
 }
 
 div#Monika_Pun {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   -webkit-animation-name: Monika_Pun; /* Safari 4.0 - 8.0 */
   -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
   animation-name: Monika_Pun;
@@ -44,4 +34,36 @@ div#Monika_Pun {
 @-ms-keyframes Monika_Pun {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+div#title{
+  color:white;
+  font-size: 120px;
+}
+
+div#subtitle{
+  padding-bottom: 30px;
+  color: white;
+}
+
+.btn {
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 40px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: rgb(153, 18, 29);
+  color: white;
+}
+
+.btn:hover {
+    background: rgba(0,0,0,0);
+    border: 1px solid white;
+}
+
+/*FOOTER*/
+footer {
+  background: rgba(0,0,0,0);
+  padding: 20px;
+  color: black;
 }
