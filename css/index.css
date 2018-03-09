@@ -60,3 +60,11 @@ div#subtitle{
     background: rgba(0,0,0,0);
     border: 1px solid white;
 }
+
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width: 100%;
+  background: rgba(0,0,0,0);
+}
