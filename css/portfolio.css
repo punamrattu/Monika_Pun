@@ -30,3 +30,34 @@ p {
         display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
 }
+
+footer {
+  background: rgb(221, 221, 221);
+  padding: 20px;
+}
+
+/*social icons*/
+a:link {
+    text-decoration: none;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: white;
+    color: black;
+}
+
+/* hover effect */
+.fa:hover {
+    background: rgba(0,0,0,0);
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+p#copyright {
+  font-size: 14px;
+}
