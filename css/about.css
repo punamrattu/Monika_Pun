@@ -6,15 +6,9 @@ body {
 div#about {
   padding-top: 70px;
   padding-bottom: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
   background-color: white;
-  font-family: 'Vollkorn', serif;
-  font-size: 16px;
-  color: black;
-}
-
-p#about {
-  font-family: 'Dr Sugiyama', cursive;
-  font-size: 70px;
   color: black;
 }
 
