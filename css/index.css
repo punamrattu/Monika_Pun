@@ -1,8 +1,10 @@
+/* BACKGROUND IMAGE */
 body {
   background: url('../images/background.jpg') no-repeat center fixed;
   background-size: cover;
 }
 
+/* ANIMATION FOR CONTAINER */
 div#Monika_Pun {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -46,25 +48,34 @@ div#subtitle{
   color: white;
 }
 
+/* BUTTON */
 .btn {
   font-family: 'Dr Sugiyama', cursive;
   font-size: 40px;
   padding: 10px;
   padding-left: 30px;
   padding-right: 30px;
-  background: rgb(153, 18, 29);
-  color: white;
+  background: rgba(0,0,0,0.5);
 }
 
-.btn:hover {
-    background: rgba(0,0,0,0);
-    border: 1px solid white;
-}
-
+/* FOOTER */
+/* custom footer for index.html - transparent, social buttons when hover are white, and copyright text is white */
 footer {
   position:fixed;
   left:0px;
   bottom:0px;
   width: 100%;
   background: rgba(0,0,0,0);
+}
+
+/* hover effect */
+.fa:hover {
+    background: rgba(0,0,0,0);
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+}
+
+p#copyright {
+  color: white;
 }
