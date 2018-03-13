@@ -26,3 +26,8 @@ p#contact {
   font-size: 50px;
   color: white;
 }
+
+.btn {
+  background: rgb(153, 18, 29);
+  color: white;
+}
