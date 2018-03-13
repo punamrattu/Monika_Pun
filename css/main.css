@@ -40,7 +40,7 @@
 .title {
   font-family: 'Dr Sugiyama', cursive;
   font-size: 70px;
-  color: rgb(153, 18, 29)
+  color: rgb(153, 18, 29);
 }
 
 .subtitle {
@@ -51,6 +51,17 @@
 .bodytext {
   font-family: 'Vollkorn', serif;
   font-size: 16px;
+}
+
+/*BUTTONS*/
+.btn {
+  color: white;
+}
+
+.btn:hover {
+    background: rgba(0,0,0,0);
+    border: 1px solid white;
+    color: white;
 }
 
 /*FOOTER*/
