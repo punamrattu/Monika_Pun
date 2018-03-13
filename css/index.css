@@ -1,45 +1,81 @@
-ul {
-      padding: 20px;
-      background: rgba(0,0,0,0);
-      font-size: 15;
-      font-family: 'Mukta Malar', sans-serif;
-    }
-
-li {
-      display: inline;
-      padding: 5px 10px 0px 10px;
-    }
-
+/* BACKGROUND IMAGE */
 body {
-  background-color: white;
+  background: url('../images/background.jpg') no-repeat center fixed;
+  background-size: cover;
 }
 
-div#feature {
-  -webkit-animation-name: feature; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
-  animation-name: feature;
-  animation-duration: 5s;
+/* ANIMATION FOR CONTAINER */
+div#Monika_Pun {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
+  -webkit-animation-name: Monika_Pun; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+  animation-name: Monika_Pun;
+  animation-duration: 3s;
 }
 
-@keyframes feature {
+@keyframes Monika_Pun {
   from{opacity: 0;}
   to {opacity: 1;}
 }
 
 /* Safari, Chrome and Opera > 12.1 */
-@-webkit-keyframes feature {
+@-webkit-keyframes Monika_Pun {
   from{opacity: 0;}
   to {opacity: 1;}
 }
 
 /* Firefox < 16 */
-@-moz-keyframes feature {
+@-moz-keyframes Monika_Pun {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
 /* Internet Explorer */
-@-ms-keyframes feature {
+@-ms-keyframes Monika_Pun {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+div#title{
+  color:white;
+  font-size: 120px;
+}
+
+div#subtitle{
+  padding-bottom: 30px;
+  color: white;
+}
+
+/* BUTTON */
+.btn {
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 40px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background: rgba(0,0,0,0.5);
+}
+
+/* FOOTER */
+/* custom footer for index.html - transparent, social buttons when hover are white, and copyright text is white */
+footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width: 100%;
+  background: rgba(0,0,0,0);
+}
+
+/* hover effect */
+.fa:hover {
+    background: rgba(0,0,0,0);
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+}
+
+p#copyright {
+  color: white;
 }
